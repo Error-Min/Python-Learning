@@ -5,6 +5,10 @@ print(test_str[1])   # e
 print(test_str[-1])  # d
 print(test_str[-2])  # l
 
+test_str2 = 'sangmin'
+
+print(test_str2[0])
+
 # List의 인덱스 부분에 음수를 넣어서 오른쪽부터 가져올 수 있습니다.
 # 주의할 점은 음수로 인덱싱할 경우에는 0부터 시작이 아니라 1부터 시작합니다.
 

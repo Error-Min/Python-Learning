@@ -10,6 +10,16 @@ print(test)  # I don't need Coke!
 test = "I don't need Coke!"
 print(test)  # I don't need Coke!
 
+test1 = "Hello World!"
+print(test1)
+
+test2 = 'I don\'t need coke'
+print(test2)
+
+test3 = "I don't need coke"
+print(test3)
+
+
 # ””,’’ 로 감싸진 문자열을 string으로 인식합니다. 싱글쿼터 혹은 더블쿼터를 문자열로 사용하려면 앞에 \ 가 들어가야 합니다.
 # 다른 방법으로는 더블쿼터로 문자열을 감싸고 문자열 내에서 싱글쿼터를 사용하는 것입니다.
 
@@ -27,5 +37,11 @@ last = 'Kang'
 
 print(first + last)  # Myungseo Kang
 print(last * 5)      # KangKangKangKangKang
+
+
+first1 = "Lee"
+last1 = "SangMin"
+
+print(first1 + last1)
 
 #==================================================================================================================
